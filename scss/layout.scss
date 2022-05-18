@@ -1,0 +1,19 @@
+@import "vars";
+@import "mixin";
+
+html {
+  //font-size: 10px;
+}
+body {
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-size: $font-normal;
+  color: $font-color;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
